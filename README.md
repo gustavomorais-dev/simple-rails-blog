@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Um projeto simples de um blog com artigos e comentários feito seguindo a documentação do Ruby on Rails.
 
-Things you may want to cover:
+Para testar, clone o repositório, abra o terminal e instale as dependências:
 
-* Ruby version
+`bundle install --gemfile /home/gustavo/rails/blog/Gemfile`
 
-* System dependencies
+Depois, inicie o servidor:
 
-* Configuration
+`bin/rails server`
 
-* Database creation
+O app estará acessível atraveś do endereço:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`http://localhost:3000/`
